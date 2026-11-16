@@ -8,7 +8,7 @@ console.log('私のニックネームは' + nickname + 'です。' + '私の年�
 // Q2
 let languages = ['JavaScript', 'PHP', 'Ruby', 'Python', 'Go'];
 
-console.log('私の好きな言語は' + languages[0] + 'です。' + '次は' + languages[3] + 'を勉強してみたいです。');
+console.log(`私の好きな言語は${languages[0]}です。次は${languages[3]}を勉強してみたいです。`);
 
 // Q3
 let user = {
