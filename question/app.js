@@ -42,7 +42,13 @@ let playerList = [
 console.log(playerList[1].favorites[1]);
 
 // Q5
-console.log(((playerList[0].age)+(playerList[1].age)+(playerList[2].age))/playerList.length);
+let sumAge = 0;
+
+for (let i = 0; i < playerList.length; i++) {
+  sumAge += playerList[i].age;
+}
+
+console.log(sumAge / playerList.length);
 
 // Q6
 function sayHello() {
