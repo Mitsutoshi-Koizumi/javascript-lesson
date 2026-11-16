@@ -42,7 +42,7 @@ let playerList = [
 console.log(playerList[1].favorites[1]);
 
 // Q5
-console.log(((playerList[0].age)+(playerList[1].age)+(playerList[2].age))/3);
+console.log(((playerList[0].age)+(playerList[1].age)+(playerList[2].age))/playerList.length);
 
 // Q6
 function sayHello() {
